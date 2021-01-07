@@ -1,0 +1,142 @@
+.aside-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 320px;
+    height: 100%;
+    background-color: white;
+    z-index: 100;
+    box-shadow: 20px 0 30px -5px #c7c3c3;
+    overflow: scroll;
+}
+
+.aside-menu::-webkit-scrollbar {
+    width: 0;
+}
+
+.aside-menu__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.aside-menu__header_logo {
+    margin-right: 60px;
+}
+
+.aside-menu__header_exit-btn {
+    background-image: url('img/icon_exit.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.aside-menu__header_exit-btn:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.aside-menu__header_search-btn {
+    background-image: url('img/icon_search.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.aside-menu__header_search-btn:hover {
+    -webkit-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     transform: scale(1.2);
+}
+
+.aside-menu__nav {
+    margin-left: -20px;
+    margin-top: 40px;
+    width: 222px;
+}
+
+.aside-menu__nav ul {
+    list-style: none;
+    white-space: nowrap;
+   
+}
+
+.aside-menu__nav_link {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 15px 5px;
+}
+
+.aside-menu__nav_link:hover {
+    color: #7E7E82;
+}
+
+.aside-menu__nav_link:hover::before {
+    content: url('img/highlight.svg');
+    position: relative;
+    right: 15px;
+    top: 15px;
+}
+
+
+.aside-menu__contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.header__button-call:hover {
+    -webkit-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     transform: scale(1.2);
+}
+
+.header__button-message:hover{
+    -webkit-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     transform: scale(1.2);
+}
+
+.header__button-contact:hover {
+    -webkit-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     transform: scale(1.2);
+}
+
+.aside-menu__contacts_mail {
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.aside-menu__contacts_phone {
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.aside-menu__lang {
+    border: 0;
+    background-color: white;
+    margin-left: 15px;
+    
+}
+
+.aside-menu__lang_btn {
+    margin-left: 0px;
+    border: 0;
+    background-color: white;
+    padding: 2px;
+}
+
+.aside-menu__lang_btn:hover {
+    color: #7E7E82;
+}
